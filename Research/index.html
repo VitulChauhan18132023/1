@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Vitul Chauhan</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+    <script
+ src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+ integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+ crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<section class="mt-100 bg-layer inquiry-form-section">
+							<div class="container">
+								<div class="row p-5">
+									<div class="col-md-6 bg-white br-left d-flex align-items-center justify-content-center">
+										<div class="mt-4 mb-4">
+											<div class="text-center">
+											<h2 class="finbyz-fadeinup t-blue">
+											Research paper Dowanloder
+											</h2>
+											</div>
+                      
+                    <div class="p-4">
+										
+                       <img src="1.png" alt="logo" class="finbyz-zoomin" title="Research paper" width="500" height="500" >										
+ 
+                      </div>
+										</div>
+									</div>
+									<div class="col-md-6 mtn-1 mln-2 bg-white br-right">
+										<div id="inquiry-form">
+											
+
+<br>
+<br>
+											<form action="#">
+											<h1>Select the option</h1>
+        <select name="courier" id="courier" multiple name="select option">
+            <option value="http://sci-hub.se/" >USE Document URL</option>
+			 <option value="http://sci-hub.se/">Use DOI NUMBER</option>
+			  <option value="http://sci-hub.se/"> ISBN </option>
+            
+        </select>
+<br>
+        <input type="text" name="tracknumber" id="tracknumber" placeholder="Enter Url or DOI Number">
+		
+		
+        <input type="button" id="submit" value="submit">
+    </form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+<!-- partial -->
+<script type="text/javascript">
+
+        $('#submit').click(function()
+        {
+            var courier = $('#courier').val();
+            var tracknumber = $('#tracknumber').val();
+			var down = $('#down').val();
+            $.each(courier, function( index, value ) {
+                  window.open(value+tracknumber, '_blank');
+                });
+        });
+    </script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'></script><script  src="./script.js"></script>
+
+</body>
+</html>
