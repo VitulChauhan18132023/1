@@ -1,0 +1,10 @@
+* {
+  font-family: helvetica neue;
+  font-size: 1.1em;
+}
+
+textarea {
+  text-align: left;
+  width: 500px;
+  height: 250px;
+}
