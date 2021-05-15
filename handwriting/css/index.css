@@ -1,8 +1,8 @@
 /* CSS Variables */
 body {
-  --background-primary: #fff;
-  --font-color-primary: #333;
-  --elevation-background: #f3f3f3;
+  --background-primary: #FFFFFF;
+  --font-color-primary: #ff002b;
+  --elevation-background: #ede8e8;
   --link-color: #006eb8;
   --font-family-primary: 'Roboto', cursive;
   --handwriting-font: 'Homemade Apple', cursive;
@@ -14,19 +14,9 @@ body {
   --primary-button-color: #eee;
   --font-color-delete: #dc3545;
   --delete-button-borders: #dc3545;
+  
 }
-body.dark {
-  --background-primary: #121212;
-  --font-color-primary: #ccc;
-  --elevation-background: #1d1d1d;
-  --link-color: #09f;
-  --label-color: #aaa;
-  --field-borders: #222;
-  --primary-button-bg: #eee;
-  --primary-button-color: #111;
-  --delete-button-borders: #e76f7b;
-  --font-color-delete: #e76f7b;
-}
+
 @font-face {
   font-family: 'Hindi_Font';
   src: url(../fonts/Hindi_Type.ttf);
@@ -51,12 +41,12 @@ section {
   padding: 20px 0px;
 }
 button {
-  border: none;
+  /*border: none;
   background-color: var(--elevation-background);
   color: var(--font-color-primary);
   border-radius: 6px;
   cursor: pointer;
-  padding: 10px 20px;
+  padding: 10px 20px;*/
 }
 
 h1 {
@@ -152,9 +142,21 @@ ul.info-ul > li {
   font-size: 1.2rem;
 }
 .generate-image-button {
-  background-color: var(--primary-button-bg);
+ /* background-color: var(--primary-button-bg);
   color: var(--primary-button-color);
-  font-size: 1rem;
+  font-size: 1rem;*/
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+  
 }
 .github-corner {
   position: absolute;
@@ -446,4 +448,15 @@ input[type='file']::before {
   .delete-button {
     margin-top: 10px;
   }
+}
+
+body{
+    background-image: url('https://i.pinimg.com/originals/d0/b3/e5/d0b3e578a50262a6296291f574e713ad.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
 }
