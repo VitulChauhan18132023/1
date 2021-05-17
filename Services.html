@@ -26,13 +26,86 @@
 
 	<!-- STYLE SWITCH STYLESHEET ONLY FOR DEMO -->
 	<link rel="stylesheet" href="css/demo.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
 	
-	<!--[if lt IE 9]>
-		<script src="js/html5shiv.js"></script>
-		<script src="js/respond.js"></script>
-    <![endif]-->
+	<style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #00B9F7;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #FFF;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+</style>
 	
 </head>
 <body>
@@ -44,6 +117,23 @@
 	</div><!-- /#st-preloader -->
 
 <section id="home-page">
+<div class="topnav">
+  <a href="https://vitulchauhan18132023.github.io/WritersAssistant.github.io/tts/index.html">TTS</a>
+		<a href="https://vitulchauhan18132023.github.io/1/reader/index.html">Reader</a>
+		<a href="https://vitulchauhan18132023.github.io/WritersAssistant.github.io/drawing/index.html">Drawing</a>
+		<a href="https://vitulchauhan18132023.github.io/WritersAssistant.github.io/to-do-list/index.html">About Us</a>
+		<a href="https://vitulchauhan18132023.github.io/WritersAssistant.github.io/to-do-list/index.html">To-do</a>
+		<a href="https://vitulchauhan18132023.github.io/1/Research/index.html">Research</a>
+		<a href="https://vitulchauhan18132023.github.io/1/summarization/index.html">Summary</a>
+		<a href="https://vitulchauhan18132023.github.io/1/word-counter/index.html">Word count</a>
+		<a href="https://vitulchauhan18132023.github.io/1/handwriting/index.html">Handwriting</a>
+  <div class="search-container">
+    <form action="https://vitulchauhan18132023.github.io/WritersAssistant.github.io/tts/">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
 		<div class="container-fluid home-bg">
 			<div class="row">
 				<div class="col-md-12 text-center home-page">
